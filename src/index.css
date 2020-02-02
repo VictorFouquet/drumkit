@@ -1,13 +1,198 @@
 body {
+  background-color: #121020;
+  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png");
+  font-family: "Orbitron", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  margin-right: 2%;
+}
+
+#gradient-border {
+  width: 540px;
+  height: 540px;
+  display: flex;
+  margin: 100px auto;
+  border-radius: 5%;
+}
+
+.grad-border-on {
+  background: linear-gradient(#6000ff, #ff00bd);
+}
+
+.grad-border-off {
+  background-color: #180012;
+}
+
+#gradient-display {
+  width: 80%;
+  height: 20%;
+  margin: 10% auto 1%;
+  display: flex;
+  border-radius: 2%;
+}
+
+.grad-disp-on {
+  background: linear-gradient(0.45turn, #ff00bd, #00e4ff);
+}
+
+.grad-disp-off {
+  background-color: #180012;
+}
+
+#drum-machine {
+  width: 520px;
+  height: 520px;
+  border-radius: 5%;
+  background-color: black;
+  margin: 5px;
+  display: flex;
+  padding: 2% 2.5% 0%;
+}
+
+.machine-on {
+  box-shadow: 0px 0px 150px 0px #6400f380;
+}
+
+#gradient {
+  width: 100%;
+  border-radius: 4%;
+  background: linear-gradient(#230054, #0b010e, black);
+}
+
+#display {
+  width: 99%;
+  height: 96%;
+  margin: auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: flex-end;
+  display-wrap: wrap;
+  color: #300063;
+  background-color: black;
+}
+
+#drum-pads {
+  margin: 3% 1% 3% 12%;
+  width: 66%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blue {
+  color: violet;
+  border: solid 3px #180012;
+  box-shadow: 0px 0px 6px 3px #6400f300;
+  cursor: pointer;
+}
+.pink {
+  color: violet;
+  border: solid 3px #000506;
+  box-shadow: 0px 0px 6px 3px #00c8f300;
+  cursor: pointer;
+}
+
+.blue-off {
+  cursor: pointer;
+  color: #2a182a;
+  border: solid 3px #ff00bd;
+  box-shadow: 0px 0px 6px 3px #6400f380;
+}
+
+.pink-off {
+  cursor: pointer;
+  color: #2a182a;
+  border: solid 3px #00e4ff;
+  box-shadow: 0px 0px 6px 3px #00c8f380;
+}
+
+.blue-pad-off {
+  color: #171616;
+  border: solid 3px #180012;
+  box-shadow: 0px 0px 6px 3px #6400f300;
+}
+
+.pink-pad-off {
+  color: #171616;
+  border: solid 3px #000506;
+  box-shadow: 0px 0px 6px 3px #00c8f300;
+}
+
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  background: radial-gradient(#000, #141627);
+  width: 80px;
+  height: 80px;
+  margin: 2%;
+}
+
+#power {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(#000, #141627);
+  margin: auto 10% 5% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.power-on {
+  color: #ba00ba80;
+  border: solid 3px #e600c5;
+  box-shadow: 0px 0px 6px 3px #f300df80;
+}
+
+.power-off {
+  color: #29182980;
+  border: solid 3px #170214;
+  box-shadow: 0px 0px 6px 3px #f300df00;
+}
+
+#pads {
+  display: flex;
+}
+
+i {
+  margin-top: 18px;
+  margin-right: 3px;
+}
+
+#signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #000000b3;
+  width: 100vw;
+  padding: 25px 0px;
+  color: #40157d;
+  font-family: "Orbitron", sans-serif;
+}
+
+#sign-text {
+  font-weight: bold;
+  margin: auto;
+}
+
+#logos {
+  margin: 5px auto;
+}
+
+a {
+  color: #40157d;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
